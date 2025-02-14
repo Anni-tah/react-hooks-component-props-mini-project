@@ -16,7 +16,7 @@ function Article({title,preview,date='January 1, 1970', time}){
     }
     return <article>
         <h3>{title}</h3>
-        <small>{`${date}  ${generateReadingEmoji(time)}  ${time} Minutes`}</small>
+        <small>{`${date}  ${generateReadingEmoji(time)}   ${time}   min read`}</small>
         <p>{preview}</p>
     </article>
    
